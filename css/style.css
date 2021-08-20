@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Bebas Neue';
-    src: local('Bebas Neue Regular Regular'), local('BebasNeueRegular'),
-        url('../fonts/BebasNeueRegular.woff2') format('woff2'),
-        url('../fonts/BebasNeueRegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue Regular Regular"), local("BebasNeueRegular"),
+    url("../fonts/BebasNeueRegular.woff2") format("woff2"),
+    url("../fonts/BebasNeueRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -13,14 +13,14 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
   background-color: #635854;
   padding-top: 12px;
   padding-bottom: 12px;
-  border-bottom: 4px solid #3596F5;
+  border-bottom: 4px solid #3596f5;
 }
 
 .navbar {
@@ -94,6 +94,10 @@ body {
   opacity: 1;
 }
 
+path.current-floor {
+  opacity: 1;
+}
+
 .counter-group {
   display: flex;
   flex-direction: column;
@@ -127,7 +131,7 @@ body {
 }
 
 .button-primary {
-  background: #3596F5;
+  background: #3596f5;
   border-radius: 6px;
   color: #fff;
   border: none;
